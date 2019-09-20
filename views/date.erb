@@ -6,6 +6,6 @@
   </head>
   <body>
     <% dateNow = DateTime.now %>
-    <h1>The date is <%= dateNow.strftime("") %></h1>
+    <h1><%= dateNow.strftime("The date is %A, %B %e, %Y ") %></h1>
   </body>
 </html>
